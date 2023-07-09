@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Check Wireless
+Icon=nm-signal-75
+Exec=checkWireless
+NoDisplay=false
+Categories=System;
+StartupNotify=true
+Terminal=false

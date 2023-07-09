@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Setup Wireless
+Icon=network-wireless-signal-excellent-symbolic
+Exec=gksudo setupWirelessInterface
+NoDisplay=false
+Categories=System;
+StartupNotify=true
+Terminal=false

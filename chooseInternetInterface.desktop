@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Choose Internet Interface
+Icon=redhat-system_settings
+Exec=gksudo chooseInternetInterface
+NoDisplay=false
+Categories=System;
+StartupNotify=false
+Terminal=false

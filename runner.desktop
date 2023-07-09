@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reneal Update
+Comment=Execute special files with .run ext for updates. Special use only.
+Icon=aptdaemon-upgrade
+Exec=/usr/local/bin/runner %f
+NoDisplay=false
+Categories=System;
+StartupNotify=false
+Terminal=false

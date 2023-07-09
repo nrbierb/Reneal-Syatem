@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Change Client OS
+Icon=redhat-system_settings
+Exec=gksudo changeClientOSImage
+NoDisplay=false
+Categories=System;
+StartupNotify=false
+Terminal=false

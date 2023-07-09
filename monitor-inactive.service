@@ -1,0 +1,16 @@
+[Unit]
+Description=Monitor newly signed out students to replace home dir
+
+[Service]
+Type=notify
+WorkingDirectory=/usr/local/share/apps
+ExecStart=/usr/local/share/apps/monitorInactive.py
+WatchdogSec=60
+Restart=on-failure
+StandardOutput=journal
+StandardError=syslog
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

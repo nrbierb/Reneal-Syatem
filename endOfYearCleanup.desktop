@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=End of Year Cleanup
+Icon=redhat-system_settings
+Exec=/usr/local/share/apps/endOfYearCleanupGui.sh
+NoDisplay=false
+Categories=System;
+StartupNotify=false
+Terminal=false

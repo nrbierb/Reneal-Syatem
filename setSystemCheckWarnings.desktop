@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Set System Check Warnings
+Icon=gtk-properties
+Exec=/usr/local/share/apps/setSystemCheckWarningsGui.sh
+NoDisplay=false
+Categories=System;
+StartupNotify=true
+Terminal=false
