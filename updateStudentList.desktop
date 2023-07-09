@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Update Student List
+Icon=/usr/share/icons/Adwaita/16x16/actions/format-indent-more-rtl.png
+Exec=updateStudentList --gui
+NoDisplay=false
+Categories=System;
+StartupNotify=true
+Terminal=false

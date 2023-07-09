@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>
+Students
+</title>
+<style type="text/css">
+
+html *{
+    font-family: "Ubuntu",helvetica,sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 30;
+    font-weight: 600;
+}
+    
+.collapsible {
+  background-color: #f6e6d5;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-top: 3px solid white;
+  text-align: left;
+  outline: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.active, .collapsible:hover {
+  background-color: #edcdab;
+}
+
+.collapsible:after {
+  content: '+';
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size:20;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-out;
+  background-color: #f1f1f1;
+}
+
+.checkbox-line {
+  }
+  
+.checkbox-line:hover {
+  background-color: #dddddd;
+  }
+  
+.header {
+  padding: 9px;
+  font-size: 22;
+  font-weight: bold;
+  background-color: #3d4e5c;
+  color: white;
+}
+
+.table_header {
+  padding: 5px;
+  font-size: 18;
+  font-weight: bold;
+  background-color: #3d4e5c;
+  color: white;
+}
+
+.table_row {
+	padding: 3px;
+	font-size: 12;
+	background-color: #f1f1f1;
+	color: black;
+	}
+.namebar {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 7% 7% 4%;
+  grid-gap: 5px;
+}
+
+.namebar > div {
+    font-size:14;
+}
+
+.center-container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  font-size: 110%
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+    
+</style>
+</head>
+<body class="body">
+
+<table width="100%">
+<tr class="table_header">
+    <th width="10%">Form<br>Level</th>
+    <th width="20%">Stream</th>
+    <th width="35%">Student Name</th>
+    <th width="10%">Total<br>Size</th>
+    <th width="auto">Personal Files<br>Size / Count</th>
+</tr>
+<tr class="table_row"><td></td><td></td><td>Guest User</td><td>12 KB</td><td></td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Check Students Size
+Icon=/usr/share/icons/gnome/48x48/actions/gtk-find.png
+Exec=/usr/local/share/apps/checkStudentsSizeGui.sh
+NoDisplay=false
+Categories=System;
+StartupNotify=true
+Terminal=false

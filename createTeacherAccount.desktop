@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Create Teacher Account
+Icon=system-config-users
+Exec=/usr/local/share/apps/createTeacherAccountGui.sh
+NoDisplay=false
+Categories=System;
+StartupNotify=false
+Terminal=false
