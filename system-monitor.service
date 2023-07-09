@@ -1,0 +1,18 @@
+[Unit]
+Description=Usage monitor
+After=mysql.service
+
+[Service]
+Type=notify
+WorkingDirectory=/usr/local/share/apps
+ExecStart=/usr/local/share/apps/SystemMonitor.py
+WatchdogSec=70
+Restart=on-failure
+StandardOutput=journal
+StandardError=syslog
+User=sysmonitor
+Group=sysmonitor
+
+[Install]
+WantedBy=multi-user.target
+
