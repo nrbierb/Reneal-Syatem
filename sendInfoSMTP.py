@@ -37,9 +37,6 @@ InfoLogger = None
 ErrorLogger = None
 EMAIL_SENDER = "mainserver@reneal.duckdns.org"
 EMAIL_RECEIVER = "reneal.datasender@gmail.com"
-SENDGRID_USERNAME = "apikey"
-SENDGRID_API_KEY = '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'
-SENDGRID_SMTP_RELAY = "smtp.sendgrid.net"
 DATABASE_HOST = "192.168.2.1"
 VERSION = "0.9"
 
